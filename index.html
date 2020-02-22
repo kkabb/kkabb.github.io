@@ -5,6 +5,23 @@
 <meta name="renderer" content="webkit">
 <title>最新网址公告页</title>
 <link rel="stylesheet" rev="stylesheet" href="style/tz.css" type="text/css" media="all">
+
+<script type="text/javascript">
+  var system = {};
+  var p = navigator.platform;
+  var u = navigator.userAgent;
+  system.win = p.indexOf("Win") == 0;
+  system.mac = p.indexOf("Mac") == 0;
+  system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+  if (system.win || system.mac || system.xll) {//如果是PC转
+    if (u.indexOf('Windows Phone') > -1) {  //win手机端
+
+    }else {
+      window.location.href = "pc.html";
+    }
+  }
+</script>
+
 </head>
     <body>
         <div class="wide">
@@ -16,10 +33,11 @@
     <p>②不支持电脑，请使用手机访问！</p>
     <p>③不支持电脑，请使用手机访问！</p>
 	<p class="f-red">重要的事情说三遍！</p>
-    <p class="ta-c mb10"><a href="https://sjkpsc.com/" class="tx-btn tx-btn-big dp-b bg-red">立即进入</a></p>
+    <p class="ta-c mb10"><a href="https://ldytz.github.io/" class="tx-btn tx-btn-big dp-b bg-red">立即进入</a></p>
                 </div>
             </div>
         </div>
 <div style="display:none;">
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278252624'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1278252624' type='text/javascript'%3E%3C/script%3E"));</script>
 </div>
 </body></html>
